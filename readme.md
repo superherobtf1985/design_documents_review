@@ -16,7 +16,7 @@
 ## レビュー対象の設計書
 
 ### 画面設計
-- UI Flow : https://drive.google.com/drive/u/0/folders/1eioKSb6Z7kaleiO4zJPXAYQJ30F9ACoN
+- UI Flow : https://drive.google.com/file/d/16tuoAJcGN142uYFmDNVeC41_50r-yu1X/view?usp=sharing
 - ワイヤーフレーム : https://drive.google.com/file/d/1TuI8FwvMX5iwXWvxyNJ9ezOrdx1jqOBv/view?usp=sharing
 
 ### データベース設計
