@@ -10,17 +10,13 @@
 - 支払い方法変更した場合の更新pathがない
 - 退会確認画面のpathがない
 - 退会完了画面のpathがない
-- 会員登録画面のpathがない
-  - [check]deviseのpathを記載することで網羅できそうです。
-- [add]論理削除を使用するモデルについては、DELETEメソッドは不要です。
+- 論理削除を使用するモデルについては、DELETEメソッドは不要です。
 
-- [add]下記のコントローラについて追記してください。
 ## admins
-- 重複しているURLがあります。確認し、レビュー文に追加してください
+- editコントローラのpathは/admins/:id/edit
 
 ## orders
-- 重複しているURLがあります。確認し、レビュー文に追加してください
+- newコントローラのpathは/orders/new
 
 ## order_details
-- このコントローラは必要でしょうか。
-  orderのcreateアクション内で、同時にorder_detailsテーブルの内容も登録するのではないでしょうか。
+- orderのcreateアクション内で、同時にorder_detailsテーブルの内容も登録するため不要
